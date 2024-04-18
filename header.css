@@ -5,7 +5,8 @@
   .site-header {
     font-family:'Railway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
-    background-color: #111; }
+    background-color: rgb(0,0,0,0);
+  }
   .site-header__end a, .site-header__start a{
     text-decoration: none;
   }

@@ -26,7 +26,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     color: #fff;
   }
 
-a:link{
+  a:link{
     color: #fff;
   }
 
@@ -46,16 +46,16 @@ a:link{
     background-image: url(somnyan_background.jpg);
     background-size: cover;
   }
-  .about__title {
-    margin: 40px 0 20px 0;
+
+
+
+
+
+  .text-bg-primary{
+  background-color: none;
   }
 
-
-.text-bg-primary{
-  background-color: none;
-}
-
-.site-wrapper, .about__us{
+  .site__wrapper, .about__us{
     max-width: 1140px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -65,14 +65,16 @@ a:link{
 
 .about__us{
     max-width: 1050px;
+} 
+
+.about__title {
+  margin: 40px 0 20px 0;
 }
 
 .about__text p{
-    word-break: break-all;
-    line-height:2rem;
+  word-break: break-all;
+  line-height:2rem;
 }
-  
-
 
 .about__text{
     font-family: "Railway",sans-serif;
@@ -89,7 +91,7 @@ a:link{
       width : 100%;
       float:none } }
 
-,.about__text, .about__text__english {
+.about__text, .about__text__english {
     border-right: none;
     padding-top: 96px;
 }
