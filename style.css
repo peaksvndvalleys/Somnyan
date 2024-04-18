@@ -55,7 +55,7 @@ a:link{
   background-color: none;
 }
 
-.wrapper, .about__us{
+.site-wrapper, .about__us{
     max-width: 1140px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -193,4 +193,11 @@ a:link{
 .background-cat{
     min-width:70%;
 }
+}
+
+.somnyan-logo-about{
+  width : 70%;
+  max-width : 600px;
+  display: block;
+  margin : 0 auto;
 }
