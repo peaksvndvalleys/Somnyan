@@ -167,8 +167,8 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .background-cat{
-  min-width:  50%;
-  max-width: 380px;
+  min-width:  40%;
+  max-width: 300px;
   display: block;
   position: fixed;
   bottom:0;
