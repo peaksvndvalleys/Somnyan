@@ -170,13 +170,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   max-width: 300px;
   bottom:0;
   position:fixed;
-  z-index: -4;
+  z-index: -5;
   float: left;
 }
 
 @media screen and (max-width: 659px) {
   .background-cat{
-    min-width:70%;
+    min-width:100%;
 }
 }
 
