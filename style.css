@@ -150,9 +150,11 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 
 .RadioStation{
     display: block;
-    margin: 200px auto;
+    margin: 10% auto;
     width: 400px;
 }
+
+
 
 .RadioPlayer{
     max-width: 400px;
