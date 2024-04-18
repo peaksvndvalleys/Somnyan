@@ -56,7 +56,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   }
 
 .site__wrapper{
-    height:100%;
+    height: max-content;
     min-height : 1200px;
     max-width: 1140px;
     padding-left: 1rem;
