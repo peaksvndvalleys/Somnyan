@@ -171,6 +171,12 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   float: left;
 }
 
+@media screen and (max-width: 659px) {
+  .background-cat{
+    min-width:70%;
+}
+}
+
 
 @media screen and (min-width: 660px) {
 .about__language__button{
@@ -191,9 +197,6 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     float: right;
 }
 
-.background-cat{
-    min-width:70%;
-}
 }
 
 .somnyan-logo-about{
