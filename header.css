@@ -10,6 +10,13 @@
   .site-header__end a, .site-header__start a{
     text-decoration: none;
   }
+
+  .site-header__start, a:visited,.site-header__end a:visited, .nav__item a:visited{
+    color : #fff
+  }
+  .site-header__end a:hover,  .nav__item a:hover{
+    color : #ff0000
+  }
   
   .site-header__wrapper {
     display: flex;
@@ -68,7 +75,7 @@
   .nav__item:not(:last-child) {
     margin-right: 1.5rem; }
   
-  .nav__item a {
+  .nav__item a{
     text-decoration: none;
     display: block;
     padding: 1.5rem 1rem; }
@@ -85,12 +92,17 @@
         right: 1rem;
         top: 1rem; } }
 
+
+  .nav__item p{
+    text-decoration: none;
+    display: block;
+    color: rgb(162, 162, 162);
+    padding: 1.5rem 1rem; }
+  @media (min-width: 660px) {
+    .nav__item p {
+    padding-left: 0;
+    padding-right: 0; } }
+
 .nav__item {
     list-style: none;
-  }
-.site-header__start, a:visited,.site-header__end a:visited, .nav__item a:visited{
-    color : #fff
-  }
-  .site-header__end a:hover,  .nav__item a:hover{
-    color : red
   }
