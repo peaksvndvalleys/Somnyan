@@ -55,7 +55,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   background-color: none;
   }
 
-  .site__wrapper, .about__us{
+.site__wrapper{
     max-width: 1140px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -92,7 +92,6 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
       float:none } }
 
 .about__text, .about__text__english {
-    border-right: none;
     padding-top: 96px;
 }
 
