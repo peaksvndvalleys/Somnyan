@@ -95,16 +95,6 @@
         top: 1rem; } }
 
 
-  .nav__item p{
-    text-decoration: none;
-    display: block;
-    color: rgb(162, 162, 162);
-    padding: 1.5rem 1rem; }
-  @media (min-width: 660px) {
-    .nav__item p {
-    padding-left: 0;
-    padding-right: 0; } }
-
 .nav__item {
     list-style: none;
   }
