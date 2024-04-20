@@ -153,6 +153,29 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     width: 400px;
 }
 
+.merch_item{
+  width : 240px;
+  height: 380px;
+}
+@media screen and (min-width: 660px) {
+  .merch_embed{
+    margin : 10px auto;
+  
+  }
+  }
+
+  
+@media screen and (max-width: 659px) {
+  .merch_embed{
+    margin: 10px auto;
+}
+.merch_item{
+  width : 360px;
+  height: 380px;
+  margin-bottom: 10px;
+}
+}
+
 
 
 .RadioPlayer{
@@ -194,6 +217,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     background-color: gray;
     font-family: "Railway", sans-serif;
     margin-right: 7px;
+    margin-top:24px;
     padding: 10px 10px;
     border-radius: 7px;
     font-weight: 700;
