@@ -271,4 +271,5 @@ a.download_button:hover{
 
 .radiopage_content{
   bottom :0;
+  min-height: 320px;
 }
