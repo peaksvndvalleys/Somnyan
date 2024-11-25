@@ -33,7 +33,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   a:hover{
     color:#a2000e;
   }
-  
+
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -43,11 +43,12 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     font-family: "Noto Sans JP", sans-serif;
     background-color: #111;
     color: #fff;
-    background-image: url(somnyan_background.jpg);
+    background-image: url(somnyan_background.webp);
     background-size: cover;
   }
 
 
+  
 
 
 
@@ -176,6 +177,41 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 }
 
+.vlc_download_content{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.vlc_download_content p{
+  word-break: break-all;
+  line-height:2rem;
+  margin:0.4rem;
+  font-weight: 500;
+  font-size: small;
+  text-align: right;
+}
+
+.vlc_download_button{
+display:flex;
+}
+
+a.download_button{
+  display: block;
+	text-decoration: none;
+	margin: auto 4px;
+	padding: 4px 12px;
+  font-size: small;
+	font-weight: 500;
+	border: 2px solid white;
+	color: white;
+	transition: 0.5s;
+}
+
+a.download_button:hover{
+	color: black;
+	background: #fff;
+}
 
 
 .RadioPlayer{
