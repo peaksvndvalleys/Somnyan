@@ -260,11 +260,15 @@ a.download_button:hover{
     float: right;
 }
 
-}
+} 
 
 .somnyan-logo-about{
   width : 70%;
   max-width : 600px;
   display: block;
   margin : 0 auto;
+}
+
+.radiopage_content{
+  bottom :0;
 }
