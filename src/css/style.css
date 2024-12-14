@@ -43,7 +43,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     font-family: "Noto Sans JP", sans-serif;
     background-color: #111;
     color: #fff;
-    background-image: url(somnyan_background.webp);
+    background-image: url(../static/images/somnyan_background.webp);
     background-size: cover;
   }
 
