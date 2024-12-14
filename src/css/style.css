@@ -1,253 +1,242 @@
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    letter-spacing: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  letter-spacing: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
-  h1 {
-    font-family : "Railway",sans-serif;
-    font-size: 1.6rem;
-    font-weight: 800;
-  }
-  
-  p {
-    font-family: "Noto Sans JP",sans-serif ;
-    font-weight : 400;
-    text-decoration: none;
-    color: #fff;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Railway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
 
-  a:link{
-    color: #fff;
-  }
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
 
-  a:hover{
-    color:#a2000e;
-  }
+a:link {
+  color: #fff;
+}
 
-  html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
-    font-family: "Noto Sans JP", sans-serif;
-    background-color: #111;
-    color: #fff;
-    background-image: url(../static/images/somnyan_background.webp);
-    background-size: cover;
-  }
+a:hover {
+  color: #a2000e;
+}
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #111;
+  color: #fff;
+  background-image: url(../static/images/somnyan_background.webp);
+  background-size: cover;
+}
 
-
-
-  .text-bg-primary{
+.text-bg-primary {
   background-color: none;
-  }
+}
 
-.site__wrapper{
-    height: max-content;
-    min-height : 1200px;
-    max-width: 1140px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.site__wrapper {
+  height: max-content;
+  min-height: 1200px;
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.about__us{
-    max-width: 1050px;
-} 
+.about__us {
+  max-width: 1050px;
+}
 
 .about__title {
   margin: 40px 0 20px 0;
 }
 
-.about__text p{
+.about__text p {
   word-break: break-all;
-  line-height:2rem;
+  line-height: 2rem;
 }
 
-.about__text{
-    font-family: "Railway",sans-serif;
-    padding: 35px;
-    font-size: 1em;
-    line-height: 1.675rem;
-    width: 50%;
-    float:left;
-    border: 1px solid #ccc;
-    font-weight: 500;
+.about__text {
+  font-family: "Railway", sans-serif;
+  padding: 35px;
+  font-size: 1em;
+  line-height: 1.675rem;
+  width: 50%;
+  float: left;
+  border: 1px solid #ccc;
+  font-weight: 500;
 }
 @media (max-width: 659px) {
-    .about__text {
-      width : 100%;
-      float:none } }
-
-.about__text, .about__text__english {
-    padding-top: 96px;
+  .about__text {
+    width: 100%;
+    float: none;
+  }
 }
 
+.about__text,
+.about__text__english {
+  padding-top: 96px;
+}
 
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
 
-  .sr-only {
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-  }
-  
-  .button {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-    color: #fff;
-    background-color: #2fa0f6;
-    min-width: 120px;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .button svg {
-    display: inline-block;
-    vertical-align: middle;
-    width: 24px;
-    height: 24px;
-    fill: #fff;
-  }
-  
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #fff;
+  background-color: #2fa0f6;
+  min-width: 120px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.button span {
+  display: none;
+}
+
+@media (min-width: 600px) {
   .button span {
-    display: none;
+    display: initial;
   }
-  
-  @media (min-width: 600px) {
-    .button span {
-      display: initial;
-    }
-  }
-  
-  .button--icon {
-    min-width: initial;
-    padding: 0.5rem;
-  }
-
-
-  
-
-.RadioStation{
-    display: block;
-    margin: 10% auto;
-    width: 400px;
 }
 
-.merch_item{
-  width : 240px;
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem;
+}
+
+.RadioStation {
+  display: block;
+  margin: 10% auto;
+  width: 400px;
+}
+
+.merch_item {
+  width: 240px;
   height: 380px;
 }
 @media screen and (min-width: 660px) {
-  .merch_embed{
-    margin : 10px auto;
-  
-  }
-  }
-
-  
-@media screen and (max-width: 659px) {
-  .merch_embed{
+  .merch_embed {
     margin: 10px auto;
-}
-.merch_item{
-  width : 360px;
-  height: 380px;
-  margin-bottom: 10px;
-}
+  }
 }
 
-.vlc_download_content{
+@media screen and (max-width: 659px) {
+  .merch_embed {
+    margin: 10px auto;
+  }
+  .merch_item {
+    width: 360px;
+    height: 380px;
+    margin-bottom: 10px;
+  }
+}
+
+.vlc_download_content {
   position: absolute;
   right: 20px;
   bottom: 20px;
 }
 
-.vlc_download_content p{
+.vlc_download_content p {
   word-break: break-all;
-  line-height:2rem;
-  margin:0.4rem;
+  line-height: 2rem;
+  margin: 0.4rem;
   font-weight: 500;
   font-size: small;
   text-align: right;
 }
 
-.vlc_download_button{
-display:flex;
+.vlc_download_button {
+  display: flex;
 }
 
-a.download_button{
+a.download_button {
   display: block;
-	text-decoration: none;
-	margin: auto 4px;
-	padding: 4px 12px;
+  text-decoration: none;
+  margin: auto 4px;
+  padding: 4px 12px;
   font-size: small;
-	font-weight: 500;
-	border: 2px solid white;
-	color: white;
-	transition: 0.5s;
+  font-weight: 500;
+  border: 2px solid white;
+  color: white;
+  transition: 0.5s;
 }
 
-a.download_button:hover{
-	color: black;
-	background: #fff;
+a.download_button:hover {
+  color: black;
+  background: #fff;
 }
 
-
-.RadioPlayer{
-    max-width: 400px;
-    min-height: 200px;
-    border: 0;
-    padding:40px 60px 0 60px;
-    border-radius: 24px;
-    z-index:1;
-    background-color: rgb(0, 0, 0,0.8);
+.RadioPlayer {
+  max-width: 400px;
+  min-height: 200px;
+  border: 0;
+  padding: 40px 60px 0 60px;
+  border-radius: 24px;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.8);
 }
 
-.background-cat{
-  min-width:  40%;
+.background-cat {
+  min-width: 40%;
   max-width: 300px;
-  bottom:0;
-  position:fixed;
+  bottom: 0;
+  position: fixed;
   z-index: -5;
   float: left;
 }
 
 @media screen and (max-width: 659px) {
-  .background-cat{
-    min-width:100%;
+  .background-cat {
+    min-width: 100%;
+  }
 }
-}
-
 
 @media screen and (min-width: 660px) {
-.about__language__button{
+  .about__language__button {
     display: none;
-}
+  }
 }
 
-@media only screen and (max-width: 659px){
-.about__language__button {
+@media only screen and (max-width: 659px) {
+  .about__language__button {
     appearance: none;
     text-decoration: none;
     border: none;
@@ -258,18 +247,17 @@ a.download_button:hover{
     border-radius: 8px;
     font-weight: 700;
     float: right;
+  }
 }
 
-} 
-
-.somnyan-logo-about{
-  width : 70%;
-  max-width : 600px;
+.somnyan-logo-about {
+  width: 70%;
+  max-width: 600px;
   display: block;
-  margin : 0 auto;
+  margin: 0 auto;
 }
 
-.radiopage_content{
-  bottom :0;
+.radiopage_content {
+  bottom: 0;
   min-height: 300px;
 }

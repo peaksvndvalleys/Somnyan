@@ -1,87 +1,89 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
-  <meta name="description" content="Independent/non-profit Radio Station from Japan">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/header.css">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes"
+    />
+    <meta name="description" content="Independent/non-profit Radio Station from Japan" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-  <link rel="icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="static/images/icon.png" />
 
+    <!-- Primary Meta Tags -->
+    <title>Somnyan In-ter-face</title>
+    <meta name="title" content="Somnyan In-ter-face" />
+    <meta name="description" content="Independent/non-profit Radio Station from Japan." />
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://somnyan.stream" />
+    <meta property="og:title" content="Somnyan In-ter-face" />
+    <meta property="og:description" content="Independent/non-profit Radio Station from Japan." />
+    <meta property="og:image" content="https://somnyan.stream/static/images/icon.png" />
 
-  <!-- Primary Meta Tags -->
-  <title>Somnyan In-ter-face</title>
-  <meta name="title" content="Somnyan In-ter-face" />
-  <meta name="description" content="Independent/non-profit Radio Station from Japan." />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://somnyan.stream" />
+    <meta name="twitter:title" content="Somnyan In-ter-face" />
+    <meta name="twitter:description" content="Independent/non-profit Radio Station from Japan." />
+    <meta name="twitter:image" content="https://somnyan.stream/static/images/icon.png" />
+  </head>
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://somnyan.stream" />
-  <meta property="og:title" content="Somnyan In-ter-face" />
-  <meta property="og:description" content="Independent/non-profit Radio Station from Japan." />
-  <meta property="og:image" content="https://somnyan.stream/static/images/icon.png" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://somnyan.stream" />
-  <meta name="twitter:title" content="Somnyan In-ter-face">
-  <meta name="twitter:description" content="Independent/non-profit Radio Station from Japan.">
-  <meta name="twitter:image" content="https://somnyan.stream/static/images/icon.png">
-
-
-</head>
-
-
-
-<body data-barba="wrapper">
-
-  <div class="site-header">
-    
-    <div class="site-header__wrapper">
-      <div class="site-header__start">
-        <a href="./index.html" class="brand">Somnyan</a>
+  <body data-barba="wrapper">
+    <div class="site-header">
+      <div class="site-header__wrapper">
+        <div class="site-header__start">
+          <a href="./index.html" class="brand">Somnyan</a>
+        </div>
+        <div class="site-header__middle">
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">menu</button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="./index.html">Home</a></li>
+              <li class="nav__item"><a href="./about.html">About</a></li>
+              <li class="nav__item"><a href="./schedule.html">Schedule</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="site-header__end">
+          <a href="./support.html">Support</a>
+        </div>
       </div>
-      <div class="site-header__middle">
-        <nav class="nav">
-          <button class="nav__toggle" aria-expanded="false" type="button">
-            menu
-          </button>
-          <ul class="nav__wrapper">
-            <li class="nav__item"><a href="./index.html">Home</a></li>
-            <li class="nav__item"><a href="./about.html">About</a></li>
-            <li class="nav__item"><a href="./schedule.html">Schedule</a></li>
-          </ul>
-        </nav>
+      <div class="RadioStation">
+        <iframe
+          src="https://a3.asurahosting.com/public/somnyan_in-ter-face/embed?theme=light"
+          frameborder="0"
+          allowtransparency="true"
+          class="RadioPlayer"
+        ></iframe>
       </div>
-      <div class="site-header__end">
-        <a href="./support.html">Support</a>
-      </div>
-  
     </div>
-    <div class="RadioStation">
-      <iframe src="https://a3.asurahosting.com/public/somnyan_in-ter-face/embed?theme=light" frameborder="0" allowtransparency="true" class="RadioPlayer"></iframe>
+
+    <main class="site__wrapper" data-barba="container">
+      <div class="site__wrapper">
+        <iframe
+          src="https://a3.asurahosting.com/public/somnyan_in-ter-face/schedule/embed"
+          frameborder="0"
+          allowtransparency="true"
+          style="width: 100%; min-height: 800px; border: 0"
+        ></iframe>
       </div>
-  </div>
-  
-  
-  <main class="site__wrapper" data-barba="container">
+    </main>
 
-  <div class="site__wrapper">
-    <iframe src="https://a3.asurahosting.com/public/somnyan_in-ter-face/schedule/embed" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 800px; border: 0;"></iframe>
-  </div>
-</main>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-<script src="js/base.js"></script>
-<script src="js/header.js"></script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="js/base.js"></script>
+    <script src="js/header.js"></script>
+  </body>
 </html>
